@@ -1,0 +1,7 @@
+{
+  "name": "JornalAPP",
+  "description": "A Progressive Web App (PPWA) designed to connect agricultural day laborers with farms, with a strong focus on offline-first functionality for areas with intermittent internet connectivity.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
