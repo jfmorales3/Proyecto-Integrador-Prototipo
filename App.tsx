@@ -79,7 +79,11 @@ const App: React.FC = () => {
       {/* Mobile-like container */}
       <div className="relative w-full max-w-sm h-[80vh] max-h-[900px] bg-hueso shadow-2xl rounded-3xl overflow-hidden border-8 border-black">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-6 bg-black rounded-b-xl z-20"></div>
-        <div className="h-full w-full overflow-y-auto">
+        {/* Logo */}
+        <div className="absolute top-8 left-1/2 -translate-x-1/2 z-10">
+          <img src="/media/Logo.png" alt="JornalAPP Logo" className="w-12 h-12 object-contain" />
+        </div>
+        <div className="h-full w-full overflow-y-auto pt-20">
           {renderView()}
         </div>
       </div>

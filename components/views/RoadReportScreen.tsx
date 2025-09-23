@@ -34,8 +34,8 @@ const RoadReportScreen: React.FC<RoadReportScreenProps> = ({ setView, isOnline }
         </div>
       ) : (
         <main className="flex-grow flex flex-col space-y-6">
-            <div className="bg-gray-300 h-48 rounded-lg flex items-center justify-center text-gray-500">
-                <p>(Mapa simple de ubicación actual)</p>
+            <div className="bg-gray-300 h-48 rounded-lg flex items-center justify-center overflow-hidden">
+                <img src="/media/Map.png" alt="Mapa de ubicación actual" className="w-full h-full object-cover rounded-lg" />
             </div>
 
             <div>
